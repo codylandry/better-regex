@@ -62,3 +62,8 @@ Template Tag that allows:
  `
 > const { title, firstName, lastName, suffix } = fullNameRegex.exec(`Mr. Cody Landry Sr`).groups
 ```
+
+
+### TODO:
+- Add tests
+- Improve docs
