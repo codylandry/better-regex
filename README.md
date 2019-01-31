@@ -6,7 +6,7 @@
 ## Include in your app
 ```html
 <script src="dist/better-regex.umd.js"></script>
-const {regex} = window.regexTag
+const {regex} = window.betterRegex
 ```
 
 ```html

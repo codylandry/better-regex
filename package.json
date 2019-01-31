@@ -1,6 +1,6 @@
 {
   "name": "better-regex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ES6 template tag that improves regular expression readability",
   "main": "dist/better-regex.js",
   "umd:main": "dist/better-regex.umd.js",
