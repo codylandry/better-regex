@@ -1,0 +1,18 @@
+{
+  "name": "regex-tag",
+  "version": "0.0.1",
+  "description": "ES6 template tag that improves regular expression readability",
+  "main": "dist/regex-tag.js",
+  "umd:main": "dist/regex-tag.umd.js",
+  "module": "dist/regex-tag.mjs",
+  "source": "regex-tag.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "author": "Cody Landry <cody.landry@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.9.0"
+  }
+}
