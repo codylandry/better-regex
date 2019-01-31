@@ -49,14 +49,14 @@ Template Tag that allows:
 > const suffix = regex`(?<suffix>jr|sr)`
 > const fullNameRegex = regex({flags: 'i'})`
    ^
-   ${title}?
+   ${title}?                ## get title if exists (Mr, Ms, etc)
    \.?
    [ ]?
-   (?<firstName>[a-zA-Z]+)
+   (?<firstName>[a-zA-Z]+)  ## pull firstName out into named group
    [ ]
-   (?<lastName>[a-zA-Z]+)
+   (?<lastName>[a-zA-Z]+)   ## pull lastName out into named group
    [ ]?
-   ${suffix}?
+   ${suffix}?               ## you can compose regex's using normal template literal syntax
    \.?
    $
  `
