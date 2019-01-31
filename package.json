@@ -1,11 +1,11 @@
 {
-  "name": "regex-tag",
+  "name": "better-regex",
   "version": "0.0.1",
   "description": "ES6 template tag that improves regular expression readability",
-  "main": "dist/regex-tag.js",
-  "umd:main": "dist/regex-tag.umd.js",
-  "module": "dist/regex-tag.mjs",
-  "source": "regex-tag.js",
+  "main": "dist/better-regex.js",
+  "umd:main": "dist/better-regex.umd.js",
+  "module": "dist/better-regex.mjs",
+  "source": "better-regex.js",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"

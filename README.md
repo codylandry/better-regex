@@ -1,28 +1,28 @@
-# regex-tag
+# better-regex
 
 ## Installation
-`npm install --save regex-tag`
+`npm install --save better-regex`
 
 ## Include in your app
 ```html
-<script src="dist/regex-tag.umd.js"></script>
+<script src="dist/better-regex.umd.js"></script>
 const {regex} = window.regexTag
 ```
 
 ```html
 <script type="module">
-  import { regex } from './node_modules/regex-tag/dist/regex-tag.js' 
+  import { regex } from './node_modules/better-regex/dist/better-regex.js' 
 </script>
 ```
 
 ```ecmascript 6
 // main.js
-import { regex } from 'regex-tag'
+import { regex } from 'better-regex'
 ```
 
 ```ecmascript 6
 // node
-const { regex } = require('regex-tag')
+const { regex } = require('better-regex')
 ```
 
 ## Purpose
