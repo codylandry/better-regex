@@ -1,4 +1,4 @@
-# ReTag
+# regex-tag
 
 ## Installation
 `npm install --save regex-tag`
